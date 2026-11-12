@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Study Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h2>Online Study Platform </h2>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="#about">About</a>
+        <a href="#materials">Materials</a>
+        <a href="#upload">Upload</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>WELCOME TO ONLINE STUDY PLATFORM</h1>
+    <p>Share, access and download study materials easily.</p>
+    <a href="#materials" class="btn">Explore Materials</a>
+</section>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>A platform where students share educational
+    materials to support learning and academic success.</p>
+</section>
+
+<section id="materials">
+    <input type="text" id="search" placeholder="search study material..." onkeyup="searchmaterials()">
+    <h2>Study Materials</h2>
+
+    <div class="card">
+        <h3>Computer Science</h3>
+        <p>Programming and computer notes.</p>
+    </div>
+
+    <div class="card">
+        <h3>Mathematics</h3>
+        <p>Mathematics notes and past questions.</p>
+    </div>
+
+    <div class="card">
+        <h3>Database Management</h3>
+        <p>Database tutorials and materials.</p>
+    </div>
+</section>
+
+<section id="upload">
+    <h2>Upload Study Materials</h2>
+    <input type="file" id="file">
+    <button onclick="uploadFile()">Upload Material</button>
+    <p id="message"></p>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>toyinlerry@gmail.com</p>
+</section>
+
+<footer>
+    <p>© 2026 Student Study Hub</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
